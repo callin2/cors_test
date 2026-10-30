@@ -500,3 +500,83 @@ genHwpFile("ATC선로변기능모듈", "DD", "./src/tlds_dd.csv", "추이분석[
     [
         "검측값",
         "표시확인"], "./out/dd_005.html");
+
+// --- issitt --
+
+genHwpFile("전자연동", "ISSITT", "./src/issitt.csv", "장치목록",
+    [
+        "알람 메세지 표시"
+    ],
+    [
+        "표시확인"], "./out/issitt_001.html");
+
+genHwpFile("전자연동", "ISSITT", "./src/issitt.csv", "장치목록",
+    [
+        "메세지 상태 표시",
+        "메세지 이력 표시"
+    ],
+    [
+        "표시확인",
+        "표시확인",
+    ], "./out/issitt_002.html");
+
+
+// --- cms ---
+
+
+genHwpFile("전자연동", "CMS", "./src/issitt.csv", "장치목록",
+    [
+        "알람 메세지 표시"
+    ],
+    [
+        "표시확인"], "./out/cms_001.html");
+
+genHwpFile("전자연동", "CMS", "./src/issitt.csv", "장치목록",
+    [
+        "메세지 상태 표시",
+        "메세지 이력 표시"
+    ],
+    [
+        "표시확인",
+        "표시확인"
+    ], "./out/cms_002.html");
+
+
+// --- cams ---
+
+genHwpFile("전자연동", "CAMZ", "./src/cams.csv", "장치목록",
+    [
+        "알람 메세지 표시"
+    ],
+    [
+        "표시확인"], "./out/cams_001.html");
+
+genHwpFile("전자연동", "CAMZ", "./src/cams.csv", "장치목록",
+    [
+        "메세지 상태 표시",
+        "메세지 이력 표시"
+    ],
+    [
+        "표시확인",
+        "표시확인"
+    ], "./out/cams_002.html");
+
+// --- lme ---
+
+genHwpFile("전자연동", "LME", "./src/lme.csv", "장치목록",
+    [
+        "알람 메세지 표시"
+    ],
+    [
+        "표시확인"], "./out/lme_001.html");
+
+genHwpFile("전자연동", "LME", "./src/lme.csv", "장치목록",
+    [
+        "메세지 상태 표시",
+        "메세지 이력 표시"
+    ],
+    [
+        "표시확인",
+        "표시확인"
+    ], "./out/lme_002.html");
+
